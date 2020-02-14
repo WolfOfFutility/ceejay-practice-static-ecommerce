@@ -1,7 +1,6 @@
 import React from 'react'
 
 import axios from 'axios'
-import API from '../../Utils/API'
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -117,7 +116,7 @@ function Nav() {
                     <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>
-                    TechShoppe
+                    Shop
                     </Typography>
                     <IconButton edge="start" color="inherit" aria-label="menu" onClick={toggleDrawer('right', true)}>
                         <ShoppingCartIcon />

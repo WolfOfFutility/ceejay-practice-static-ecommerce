@@ -31,7 +31,7 @@ function Main() {
                 <div>
                     <Background id="Home"/>
                     <div className="header-text">
-                        <h1>TechShoppe</h1>
+                        <h1>Shop</h1>
                         <h2>Efficient,</h2>
                         <h3>Yet Affordable</h3>
                         <Link to="/Monitors" className="browse-link">Browse Products -></Link>
