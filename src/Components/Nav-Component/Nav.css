@@ -1,0 +1,10 @@
+.menu-button {
+    float: left !important;
+}
+
+
+@media screen and (max-width: 600) {
+    #list {
+        width: 590px !important;
+    }
+}

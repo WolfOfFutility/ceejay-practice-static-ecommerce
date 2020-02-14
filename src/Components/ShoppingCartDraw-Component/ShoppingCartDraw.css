@@ -1,0 +1,10 @@
+.checkoutButton {
+    background: #444 !important;
+    color: white !important;
+    margin: 0 auto !important;
+}
+
+.checkoutButton:hover {
+    background: #FAE596 !important;
+    color: black !important;
+}

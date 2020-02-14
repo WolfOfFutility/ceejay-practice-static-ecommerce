@@ -1,0 +1,166 @@
+.main {
+    color: white;
+    min-height: 80%;
+    width: 100%;
+}
+
+.header-text h1 {
+    margin-left: 100px;
+    margin-top: 2%;
+    font-size: 100px;
+}
+
+.header-text h2 {
+    margin-left: 100px;
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-size: 80px;
+}
+
+.header-text h3 {
+    margin-left: 100px;
+    margin-top: 0;
+    font-size: 60px;
+    color: #FAE596;
+}
+
+.header-text {
+    display: block;
+    float: left;
+    width: 65%;
+}
+
+.animated-arrow {
+    height: 40px;
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: 40%;
+    text-align: center;
+}
+
+.down-arrow {
+    animation-name: scroll-down-please;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+    color: #FAE596;
+}
+
+.browse-link {
+    margin-left: 105px;
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+
+.browse-link:hover {
+    border: none;
+    text-decoration: none;
+}
+
+.home-2 {
+    height: 500px;
+    width: 100%;
+    margin-top: 2%;
+    color: #444;
+}
+
+.home-2 h2 {
+    margin-left: 100px;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.products-list {
+    margin-left: 100px;
+}
+
+/* Animations */
+
+@keyframes scroll-down-please {
+    0% {margin-top: 0%}
+    10% {margin-top: 5%}
+    20% {margin-top: 10%}
+    30% {margin-top: 15%}
+    35% {margin-top: 20%}
+    40% {margin-top: 25%}
+    50% {margin-top: 30%}
+    60% {margin-top: 25%}
+    70% {margin-top: 20%}
+    80% {margin-top: 15%}
+    90% {margin-top: 10%}
+    100% {margin-top: 5%}
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    .header-text h1 {
+        margin-left: 20px;
+        margin-top: 2%;
+        font-size: 40px;
+    }
+    
+    .header-text h2 {
+        margin-left: 20px;
+        margin-top: 2%;
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+    
+    .header-text h3 {
+        margin-left: 20px;
+        margin-top: 0;
+        font-size: 30px;
+        color: #FAE596;
+    }
+
+    .animated-arrow {
+        height: 40px;
+        width: 30px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        z-index: 2;
+        margin-top: 120%;
+        text-align: center;
+    }
+
+    .browse-link {
+        margin-left: 22px !important;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 15px;
+        border-bottom: 2px solid white;
+    }
+    
+    .browse-link:hover {
+        border: none;
+        text-decoration: none;
+    }
+
+    .home-2 {
+        height: 500px;
+        width: 100%;
+        margin-top: 10%;
+        color: #444;
+    }
+    
+    .home-2 h2 {
+        margin-left: 32px;
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    
+    .products-list {
+        margin-left: 38px;
+    }
+}
